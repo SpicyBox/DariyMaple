@@ -9,6 +9,11 @@ import UIKit
 
 class MyTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var questImage: UIImageView!
+    @IBOutlet weak var objectName: UILabel!
+    @IBOutlet weak var objectLavel: UILabel!
+    @IBOutlet weak var nowLavelAndMaxLavel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
