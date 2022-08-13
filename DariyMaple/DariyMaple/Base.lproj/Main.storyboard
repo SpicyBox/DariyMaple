@@ -72,6 +72,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="gaugeBar" destination="V0g-Ad-wfr" id="fnb-3k-geV"/>
                                     <outlet property="nowLavelAndMaxLavel" destination="7hZ-o7-9eE" id="NwP-g5-1MM"/>
                                     <outlet property="objectLavel" destination="0SJ-qU-6vQ" id="Xe2-Jv-2Pj"/>
                                     <outlet property="objectName" destination="UzV-Qu-sKg" id="2qt-fU-qHq"/>

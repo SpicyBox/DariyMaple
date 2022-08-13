@@ -13,6 +13,7 @@ class MyTableViewCell: UITableViewCell {
     @IBOutlet weak var objectName: UILabel!
     @IBOutlet weak var objectLavel: UILabel!
     @IBOutlet weak var nowLavelAndMaxLavel: UILabel!
+    @IBOutlet weak var gaugeBar: UIProgressView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
