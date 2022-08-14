@@ -78,6 +78,7 @@
                                     <outlet property="objectName" destination="UzV-Qu-sKg" id="2qt-fU-qHq"/>
                                     <outlet property="questImage" destination="x9p-np-Pq7" id="cwi-Qk-kVA"/>
                                     <segue destination="BYZ-38-t0r" kind="custom" id="v5W-1I-3yu"/>
+                                    <segue destination="w7q-Mn-xg8" kind="showDetail" trigger="accessoryAction" id="xCU-ND-qJh"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -90,6 +91,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qyo-hB-r6J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-949.27536231884062" y="79.6875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aQi-Sg-Cb5">
+            <objects>
+                <viewController id="w7q-Mn-xg8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aC2-ew-YGY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0ph-Ms-JZd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="obz-7G-oD9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64" y="-377"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -113,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="80"/>
+            <point key="canvasLocation" x="46" y="344"/>
         </scene>
     </scenes>
     <resources>
