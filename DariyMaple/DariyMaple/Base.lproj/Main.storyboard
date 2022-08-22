@@ -153,20 +153,23 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="cqg-dX-mV9">
-                                <rect key="frame" x="124" y="273" width="177" height="31"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="cqg-dX-mV9">
+                                <rect key="frame" x="124" y="230" width="180" height="65"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIy-Ut-8EM">
-                                        <rect key="frame" x="0.0" y="0.0" width="48.5" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="65"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="삭제"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-xV-Igs">
-                                        <rect key="frame" x="128.5" y="0.0" width="48.5" height="31"/>
+                                        <rect key="frame" x="130" y="0.0" width="50" height="65"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="생성"/>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="rZe-rA-QCf"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0ph-Ms-JZd"/>
@@ -174,7 +177,11 @@
                         <constraints>
                             <constraint firstItem="C1R-J4-saB" firstAttribute="top" secondItem="0ph-Ms-JZd" secondAttribute="top" constant="24" id="5dM-Lr-wUW"/>
                             <constraint firstItem="0ph-Ms-JZd" firstAttribute="trailing" secondItem="C1R-J4-saB" secondAttribute="trailing" constant="24" id="B7C-lV-LWT"/>
+                            <constraint firstItem="cqg-dX-mV9" firstAttribute="top" secondItem="C1R-J4-saB" secondAttribute="bottom" constant="40" id="NcM-7T-fyg"/>
+                            <constraint firstItem="cqg-dX-mV9" firstAttribute="top" secondItem="aC2-ew-YGY" secondAttribute="top" constant="230" id="PgS-r3-kbL"/>
+                            <constraint firstItem="0ph-Ms-JZd" firstAttribute="bottom" secondItem="cqg-dX-mV9" secondAttribute="bottom" constant="547" id="Yf1-8H-SJR"/>
                             <constraint firstItem="C1R-J4-saB" firstAttribute="leading" secondItem="0ph-Ms-JZd" secondAttribute="leading" constant="24" id="ax0-8Y-dMj"/>
+                            <constraint firstItem="cqg-dX-mV9" firstAttribute="leading" secondItem="0ph-Ms-JZd" secondAttribute="leading" constant="124" id="nV7-4v-zf9"/>
                         </constraints>
                     </view>
                 </viewController>
