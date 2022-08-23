@@ -14,6 +14,7 @@
 		FBF7E1B4289BD0C2000C52DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF7E1B3289BD0C2000C52DE /* Assets.xcassets */; };
 		FBF7E1B7289BD0C2000C52DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF7E1B5289BD0C2000C52DE /* LaunchScreen.storyboard */; };
 		FBF7E1BF289D3E67000C52DE /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7E1BE289D3E67000C52DE /* MyTableViewCell.swift */; };
+		FBF7E1C128B50615000C52DE /* DeatilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7E1C028B50615000C52DE /* DeatilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FBF7E1B6289BD0C2000C52DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBF7E1B8289BD0C2000C52DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF7E1BE289D3E67000C52DE /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		FBF7E1C028B50615000C52DE /* DeatilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeatilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				FBF7E1B5289BD0C2000C52DE /* LaunchScreen.storyboard */,
 				FBF7E1B8289BD0C2000C52DE /* Info.plist */,
 				FBF7E1BE289D3E67000C52DE /* MyTableViewCell.swift */,
+				FBF7E1C028B50615000C52DE /* DeatilViewController.swift */,
 			);
 			path = DariyMaple;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF7E1C128B50615000C52DE /* DeatilViewController.swift in Sources */,
 				FBF7E1AF289BD0C1000C52DE /* ViewController.swift in Sources */,
 				FBF7E1BF289D3E67000C52DE /* MyTableViewCell.swift in Sources */,
 				FBF7E1AB289BD0C1000C52DE /* AppDelegate.swift in Sources */,
