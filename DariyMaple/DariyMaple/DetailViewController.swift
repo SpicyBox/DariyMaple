@@ -5,7 +5,7 @@
 //  Created by 이정찬 on 2022/08/23.
 //
 
-import Foundation
+import UIKit
 
 class DetailViewController: UIViewController {
 
