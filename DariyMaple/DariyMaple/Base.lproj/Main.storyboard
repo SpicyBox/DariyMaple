@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="-949.27536231884062" y="79.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="aQi-Sg-Cb5">
             <objects>
-                <viewController id="w7q-Mn-xg8" sceneMemberID="viewController">
+                <viewController id="w7q-Mn-xg8" customClass="DetailViewController" customModule="DariyMaple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aC2-ew-YGY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,6 +165,9 @@
                                         <rect key="frame" x="130" y="0.0" width="50" height="65"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="생성"/>
+                                        <connections>
+                                            <action selector="saveButton:" destination="w7q-Mn-xg8" eventType="touchUpInside" id="yRk-BT-rrd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -184,6 +187,11 @@
                             <constraint firstItem="cqg-dX-mV9" firstAttribute="leading" secondItem="0ph-Ms-JZd" secondAttribute="leading" constant="124" id="nV7-4v-zf9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="symBollLavel" destination="Nuk-64-N8k" id="wkz-SD-G07"/>
+                        <outlet property="symbollLavel" destination="2ru-D6-0mV" id="JJ1-6h-gbo"/>
+                        <outlet property="symbollName" destination="ido-7O-XH4" id="YBs-mD-NPX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="obz-7G-oD9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
