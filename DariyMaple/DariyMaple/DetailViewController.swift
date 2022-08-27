@@ -17,4 +17,6 @@ class DetailViewController: UIViewController {
     }
     @IBAction func saveButton(_ sender: UIButton) {
     }
+    @IBAction func cancelButton(_ sender: UIButton) {
+    }
 }

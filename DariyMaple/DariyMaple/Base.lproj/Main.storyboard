@@ -160,6 +160,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="65"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="삭제"/>
+                                        <connections>
+                                            <action selector="cancelButton:" destination="w7q-Mn-xg8" eventType="touchUpInside" id="GMj-EJ-OAv"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-xV-Igs">
                                         <rect key="frame" x="130" y="0.0" width="50" height="65"/>
