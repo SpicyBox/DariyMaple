@@ -9,6 +9,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    let symbollInt:Int
     @IBOutlet weak var symboll: UITextField!
     @IBOutlet weak var symbollName: UITextField!
     @IBOutlet weak var symbollLavel: UITextField!
@@ -16,6 +17,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
     }
     @IBAction func saveButton(_ sender: UIButton) {
+        
     }
     @IBAction func cancelButton(_ sender: UIButton) {
     }
