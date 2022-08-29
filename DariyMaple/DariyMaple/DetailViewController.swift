@@ -7,9 +7,11 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController : UIViewController {
 
-    let symbollInt:Int
+    let symbollInt : Int? = 0
+    let symbollNameString : String? = nil
+    
     @IBOutlet weak var symboll: UITextField!
     @IBOutlet weak var symbollName: UITextField!
     @IBOutlet weak var symbollLavel: UITextField!
