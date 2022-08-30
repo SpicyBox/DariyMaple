@@ -11,6 +11,8 @@ class DetailViewController : UIViewController {
 
     let symbollInt : Int? = 0
     let symbollNameString : String? = nil
+    let symbollLavelValue : Int? = 0
+    
     
     @IBOutlet weak var symboll: UITextField!
     @IBOutlet weak var symbollName: UITextField!
