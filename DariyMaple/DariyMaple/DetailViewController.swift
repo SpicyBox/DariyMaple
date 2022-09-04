@@ -21,7 +21,7 @@ class DetailViewController : UIViewController {
         super.viewDidLoad()
     }
     @IBAction func saveButton(_ sender: UIButton) {
-        
+        symbollInt = 1
     }
     @IBAction func cancelButton(_ sender: UIButton) {
     }
